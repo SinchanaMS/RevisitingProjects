@@ -1,0 +1,16 @@
+.products,
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prod-card {
+  outline: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: fit-content;
+}
